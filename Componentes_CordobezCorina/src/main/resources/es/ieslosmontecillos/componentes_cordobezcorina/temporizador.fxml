@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root fx:id="hbTemporizador" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="116.0" prefWidth="299.0" style="-fx-border-color: black;" type="HBox" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lbTiempoRest" alignment="CENTER" text=" Tiempo restante:" textAlignment="CENTER" textFill="#514d4d">
+         <font>
+            <Font name="Arial Bold Italic" size="19.0" />
+         </font>
+         <opaqueInsets>
+            <Insets left="5.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbTiempo" alignment="CENTER" prefHeight="28.0" prefWidth="43.0" text=" ____" textAlignment="CENTER" textFill="#514d4d">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbUnidad" alignment="CENTER" text=" s" textAlignment="CENTER" textFill="#514d4d">
+         <font>
+            <Font name="Arial Bold Italic" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</fx:root>
